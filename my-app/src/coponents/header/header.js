@@ -1,13 +1,13 @@
 import React from 'react';
 import Nav from './nav';
-
+import {HeaderS} from '../../styledComponents/styledComponents';
 export default function Header(props){
 
     return (
-        <header>
-            <img src="#" alt="logo" />
+        <HeaderS>
+            <h1>New App</h1>
             <Nav />
-        </header>
+        </HeaderS>
     );
 
 }

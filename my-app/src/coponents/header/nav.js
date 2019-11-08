@@ -1,16 +1,17 @@
 import React from 'react';
+import {NavS} from '../../styledComponents/styledComponents';
 
 export default function Nav(){
 
 
     return (
 
-        <nav>
+        <NavS>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Log In</a>
             
-        </nav>
+        </NavS>
 
     );
 
